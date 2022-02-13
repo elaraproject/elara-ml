@@ -15,5 +15,6 @@ A minimalist, very lightweight library for machine learning in Rust.
 
 ## Non-goals
 
+- Support GPU-acceleration (it will remain CPU-only for the foreseeable future)
 - Support every use case
 - Compete against industry-standard ML frameworks (e.g. Theano, TensorFlow, PyTorch)
