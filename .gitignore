@@ -1,0 +1,16 @@
+
+# This is a general gitignore template
+debug*/
+target*/
+build*/
+release*/
+
+# Operating system generated files
+.DS_Store
+*.temp
+*.cache
+*.pdb
+*.tmp
+
+# For cargo
+Cargo.lock
