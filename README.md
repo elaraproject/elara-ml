@@ -2,6 +2,8 @@
 
 A minimalist, very lightweight library for machine learning in Rust.
 
+**Please note:** Due to Rust's inherent design, Elara ML only runs fast if you compile in release mode. Running it in debug mode will be much slower.
+
 ## Goals
 
 - Minimalist (very few dependencies, small codebase)
@@ -11,7 +13,8 @@ A minimalist, very lightweight library for machine learning in Rust.
 
 ## Future goals
 
-- Python API
+- Python API and publish library to PyPI
+- Support for `intel-mkl` for acceleration
 
 ## Non-goals
 
